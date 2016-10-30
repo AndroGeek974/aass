@@ -28,7 +28,7 @@ def dl():
     print("ISD -- Initialize Source Download")
     os.system("mkdir " + ver) # Create the local repo
     os.system("cd " + ver + " && repo init -u " + src_link + " -b " + ver + " && repo sync --force-sync") # Initialize it & Download
-    os.system("cd .. && ls " + ver " > hak.txt") # store source directory arborescence in hak.txt to see if there's not only that .repo
+    os.system("ls > hak.txt") # store source directory arborescence in hak.txt to see if there's not only that .repo
     hak = open("hak.txt","r") # open hak.txt
     whatever = "build" # searching for build/ in the folder
     for ligne in hak:
