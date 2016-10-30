@@ -35,7 +35,7 @@ def dl():
         if whatever in ligne:
             print("Repo Successfully Downloaded.") # If you found it, you have a lot of chances. You basically have your fully synced sources
         else:
-            print("Repo NOT Successfully Downloaded.") # sorry but my coding skills aren't perfect
+            print("Repo NOT Successfully Downloaded.") # never_giveup will help you
             never_giveup() # please
 
 # Execute
